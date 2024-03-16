@@ -1,0 +1,65 @@
+.container {
+    width: 100%;
+    padding: 30px;
+}
+
+.para-list {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.paraTag {
+    opacity: 0.7;
+}
+
+.input-box {
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 17px;
+    padding-left: 19px;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.data-box {
+    width: 32%;
+    height: 29rem;
+    padding: 0 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px -1px 4px 2px rgba(237, 237, 237, 1);
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-btn {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2.7rem;
+    background: hsl(219, 79%, 66%);
+    color: white;
+    border: 0;
+    outline: 0;
+}
+
+.count-btn:hover {
+    background: hsl(219, 79%, 56%);
+}
+
+.count-btn:active {
+    background: hsl(219, 79%, 66%);
+}

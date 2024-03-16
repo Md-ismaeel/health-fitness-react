@@ -1,0 +1,32 @@
+.image-box {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.img-url {
+    width: 385px;
+    height: 300px;
+    transition:all;
+    border-radius: 4px;
+}
+
+.img-url:hover {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.heading-text {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px 33px;
+}
